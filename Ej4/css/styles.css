@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background-color: #333333;
+    width: 90%;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+
+.container {
+    text-align: center;
+}
+
+.youtuber, .footer, .header {
+    background-color: #424242;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.imageHome{
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    object-fit: cover;
+    text-align: center;
+    width: 90%;
+    border:black 4px solid;
+    border-radius: 3%;
+    height: auto;
+    border: 5px solid black;
+}
+
+.youtuber .images {
+
+    text-align: center;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.youtuber h2 {
+
+    font-size: 1.5em;
+    color: white;
+    margin: 10px 0;
+}
+
+.youtuber p {
+    color: white;
+    font-size: 1em;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+li {
+
+    border-left: 4px red solid;
+    display: inline;
+    padding-left: 5px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+
+.button {
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s ease;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media all and (max-width: 700px) {
+    .youtuber, .footer {
+        border-color: red;
+    }
+    .button {
+        background-color: red;
+    }
+    .button:hover {
+        background-color: darkred;
+    }
+}
